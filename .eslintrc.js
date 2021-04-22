@@ -1,0 +1,8 @@
+module.exports = {
+  root: true,
+  extends: "@react-native-community",
+  rules: {
+    "comma-dangle": ["error", "always-multiline"],
+    quotes: ["error", "double", { avoidEscape: true }],
+  },
+};
